@@ -1,5 +1,1 @@
-#!/bin/bash
-apt-get install -y nginx
-cd ./src && mvn clean install
-cd ./web/app && mvn jetty:run
-
+cd src && mvn clean install
