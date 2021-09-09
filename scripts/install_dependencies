@@ -1,1 +1,1 @@
-cd src && mvn clean install
+cd ../src && mvn clean install
