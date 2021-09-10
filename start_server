@@ -1,4 +1,4 @@
-cd src
+cd /home/ubuntu/geostore/src
 mvn -fn clean install -Dmaven.test.skip=true
 cd web/app
 mvn jetty:run
