@@ -1,4 +1,4 @@
 cd /home/ubuntu/geostore/src
 mvn -fn clean install -Dmaven.test.skip=true
-cd web/app
-mvn jetty:run -Djetty.port=8181 </dev/null &>/dev/null &
+cp /home/ubuntu/geostore/src/web/app/target/geostore.war /var/lib/tomcat8/webapps/
+systemctl restart tomcat8.service
