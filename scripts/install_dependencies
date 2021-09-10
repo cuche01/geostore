@@ -1,1 +1,2 @@
-sudo apt install -y maven
+#!/bin/bash
+yum install -y httpd
