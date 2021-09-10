@@ -1,1 +1,1 @@
-cd ../src && mvn clean install
+sudo apt install -y maven
