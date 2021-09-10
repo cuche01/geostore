@@ -3,3 +3,4 @@ mvn -fn clean install -Dmaven.test.skip=true
 rm /var/lib/tomcat8/webapps/geostore.war
 cp /home/ubuntu/geostore/src/web/app/target/geostore.war /var/lib/tomcat8/webapps/
 systemctl restart tomcat8.service
+systemctl restart nginx
